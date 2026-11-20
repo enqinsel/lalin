@@ -1,0 +1,27 @@
+{
+  "fps": 30,
+  "frames": 180,
+  "events": [
+    {
+      "frame": 17,
+      "audio": "cloth.wav",
+      "gain": 1.1,
+      "attack_sample": 432,
+      "action": "Uzanmada bordo ceket yakası hareket ediyor"
+    },
+    {
+      "frame": 47,
+      "audio": "bracelet.wav",
+      "gain": 0.95,
+      "attack_sample": 240,
+      "action": "Destek eli yükselirken altın bileklikler hareket ediyor"
+    },
+    {
+      "frame": 126,
+      "audio": "lipstick_cap.wav",
+      "gain": 0.85,
+      "attack_sample": 240,
+      "action": "Elde oluşan tüpün kapağı ilk kez ruj ucundan net ayrılıyor"
+    }
+  ]
+}

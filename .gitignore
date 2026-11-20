@@ -1,0 +1,5 @@
+/outputs/
+/archive/failed_room_motion_v0_1/animation-test.mp4
+.godot/
+__pycache__/
+.DS_Store

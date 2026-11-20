@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="360" viewBox="-100 -34 200 360">
+<defs>
+<linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="22%">
+  <stop stop-color="#ae836d"/><stop offset=".22" stop-color="#e4c6ac"/><stop offset=".52" stop-color="#f9e5ce"/><stop offset=".78" stop-color="#e5c3a9"/><stop offset="1" stop-color="#bc937d"/>
+</linearGradient>
+</defs>
+<path d="M-53-29 Q0-33 54-28 C66-11 62 23 62 52 C61 99 68 130 70 162 C76 207 87 253 93 302 C58 314 23 319-9 319 C-41 318-67 315-92 312 C-86 268-76 208-70 159 C-66 109-67 75-64 38 C-64 7-62-13-53-29Z" fill="url(#cream)" stroke="#936a54" stroke-width="2.05"/>
+<path d="M-45-14 C-47 33-47 71-55 114 C-59 151-58 192-75 265 C-61 226-48 195-42 151 C-39 103-24 64-29 19Z" fill="#f8e9d3" opacity=".71"/>
+<path d="M-27 18 C-24 94-29 150-35 198 C-42 243-48 274-59 311 L-38 315 C-36 278-27 243-22 202 C-12 146-11 73-17 26Z" fill="#cca68d" opacity=".68"/>
+<path d="M29 20 C37 63 40 120 39 172 C38 205 49 255 61 309 L76 306 C64 272 57 231 53 191 Q51 84 37 26Z" fill="#b78b73" opacity=".49"/>
+<path d="M-1 48 C5 112-1 169-5 210 C-7 246-6 270-9 307" fill="none" stroke="#a9806b" stroke-width="1.7" opacity=".64"/>
+<path d="M15 62 C17 131 11 176 13 220 L22 295 M-78 306 Q-8 320 80 300" fill="none" stroke="#fff2db" stroke-width="1.9" opacity=".63"/>
+<path d="M-91 311 Q-16 327 93 302" fill="none" stroke="#9e7963" stroke-width="1.5" opacity=".73"/>
+</svg>

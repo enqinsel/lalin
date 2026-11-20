@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "project": "Lalin",
+  "phase": "02",
+  "voice": {
+    "role": "Lalin",
+    "provider": "Higgsfield",
+    "preset_name": "Raina",
+    "voice_type": "preset",
+    "voice_id": "1c3a4775-9afb-52c1-a2bf-b6543231a9a1"
+  },
+  "generation": {
+    "model": "elevenlabs_v4",
+    "job_id": "c4443a17-e45e-4871-bdc2-362b64e7b6fd",
+    "status": "completed",
+    "request_count": 1,
+    "samples_requested": 1,
+    "prompt": "[calm, lightly sarcastic, natural Istanbul Turkish] Ben senin fikrini değil, ışığını sordum. [brief quiet chuckle]",
+    "spoken_text": "Ben senin fikrini değil, ışığını sordum.",
+    "requested_locale": "tr-TR",
+    "chuckle_requested_in_same_take": true
+  },
+  "credits": {
+    "quoted_exact": 0.69,
+    "approved": 0.69,
+    "approved_on": "2026-11-20",
+    "approved_request_count": 1,
+    "settled_charge_verified": false,
+    "settled_charge": null,
+    "note_tr": "MCP iş sorgusu tamamlanma durumunu ve modeli doğruladı. Kesinleşen kredi kesintisini döndürmedi."
+  },
+  "outputs": [
+    {
+      "path": "assets/voice/raina_pilot_line.mp3",
+      "role": "pilot_repliği_orijinal",
+      "bytes": 59394,
+      "sha256": "882bc2d25d4dc3240d63f3f462632633d03d376bdca05e24ea484727ea2784a4",
+      "container": "mp3",
+      "codec": "mp3",
+      "duration_seconds": 3.709375,
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "channel_layout": "mono",
+      "audio_bit_rate_bps": 128000
+    }
+  ]
+}

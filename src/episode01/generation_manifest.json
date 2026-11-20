@@ -1,0 +1,89 @@
+{
+  "title": "Ayna Bile Trip Atıyor",
+  "date": "2026-11-20",
+  "sound_manifest": "assets/voice/episode01/manifest.json",
+  "generated_cadence": {
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "seconds": 28
+  },
+  "delivery": {
+    "path": "outputs/episode01/lalin_bolum01_ayna_bile_trip_atiyor.mp4",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "frames": 789,
+    "seconds": 26.3,
+    "sha256": "db1ee11b92af5faeed7122c91fcf50f17112b7ce4a005ad9cd784e28ee05980c"
+  },
+  "approved_credits": 72.07,
+  "exact_quotes": {
+    "video": 70,
+    "new_voice": 2.07,
+    "total": 72.07
+  },
+  "settled_deduction_verified": false,
+  "video": [
+    {
+      "plan": 1,
+      "job_id": "4559cd3e-ffa3-46a3-a25b-35669bc4308d",
+      "state": "completed",
+      "file": "outputs/episode01/wan/plan01.mp4",
+      "credits_quote": 17.5,
+      "request": {
+        "model": "wan2_7",
+        "duration": 7,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "count": 1,
+        "prompt": "İlk karedeki aynı yetişkin çizgi kadın, yüz oranları, koyu kahverengi saç, bordo ceket, krem üst, küpe ve saat birebir tutarlı. Profesyonel el çizimi cel estetiği, aynı renkler ve çizgi. Tek sabit kamera. Onaylı oda, ayna ampulleri, neon, kitaplar ve dekor hareketsiz. Yalnızca ekli Türkçe Raina sesinin konuşma zamanları ve heceleriyle dudak, çene ve yanak hareketi; ayna sessiz. İlk 2,7 saniyede Lalin aynadan kendisini inceler, doğal göz kırpar ve yüzüne yakın elinin iki parmağıyla kulağının altındaki kendi saçını bir kez omzuna doğru hafifçe düzeltir. El yüzü örtmez, ön kol ve omuz doğal, diğer kol ve kıyafet aynı pozda. Pencere ve dekor yerinde. Ardından yaklaşık 2,8–5,75 saniyede verilen repliği sakin, kararlı iç konuşma tonunda söyler. Sonunda aynı aynayı sessizce süzer."
+      }
+    },
+    {
+      "plan": 2,
+      "job_id": "c119e897-d3a6-48d3-84b0-80effe6c714d",
+      "state": "completed",
+      "file": "outputs/episode01/wan/plan02.mp4",
+      "credits_quote": 12.5,
+      "request": {
+        "model": "wan2_7",
+        "duration": 5,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "count": 1,
+        "prompt": "İlk karedeki aynı yetişkin çizgi kadın, yüz oranları, koyu kahverengi saç, bordo ceket, krem üst, küpe ve saat birebir tutarlı. Profesyonel el çizimi cel estetiği, aynı renkler ve çizgi. Tek sabit kamera. Onaylı oda, ayna ampulleri, neon, kitaplar ve dekor hareketsiz. Yalnızca ekli Türkçe Raina sesinin konuşma zamanları ve heceleriyle dudak, çene ve yanak hareketi; ayna sessiz. İlk yarım saniyede kısa bir duraklama ve gözlerini ekran sağındaki aynaya çevirme. Şaşkınlık küçük, gözler abartılı iri açılmaz. Yaklaşık 0,76–2,90 saniyede verilen cümleyi söyler. Sonuna doğru tek kaş hafif yükselir, göz kapağı ve yanak doğal tepki verir. El ve kıyafet sakin."
+      }
+    },
+    {
+      "plan": 3,
+      "job_id": "9b099e19-478a-4155-92ab-2081779ff337",
+      "state": "completed",
+      "file": "outputs/episode01/wan/plan03.mp4",
+      "credits_quote": 15,
+      "request": {
+        "model": "wan2_7",
+        "duration": 6,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "count": 1,
+        "prompt": "İlk karedeki aynı yetişkin çizgi kadın, yüz oranları, koyu kahverengi saç, bordo ceket, krem üst, küpe ve saat birebir tutarlı. Profesyonel el çizimi cel estetiği, aynı renkler ve çizgi. Tek sabit kamera. Onaylı oda, ayna ampulleri, neon, kitaplar ve dekor hareketsiz. Yalnızca ekli Türkçe Raina sesinin konuşma zamanları ve heceleriyle dudak, çene ve yanak hareketi; ayna sessiz. İlk 1,7 saniyede ekran sağındaki aynaya bakıp tek kaşı kaldırır. 1,7–4,42 saniyede ekli repliği kendinden emin ve hafif sabırsız, alaycı bir çene ve kaş hareketiyle söyler. Noktada ağzı kapanır, aynayı sakin biçimde izler. Kontrolü görünür kılan küçük göz ve omuz hareketi, kahkaha yok, eller aynı pozda."
+      }
+    },
+    {
+      "plan": 4,
+      "job_id": "93da6cc1-8a86-4f09-a5e9-85e89bdac7cf",
+      "state": "completed",
+      "file": "outputs/episode01/wan/plan04.mp4",
+      "credits_quote": 25,
+      "request": {
+        "model": "wan2_7",
+        "duration": 10,
+        "aspect_ratio": "9:16",
+        "resolution": "1080p",
+        "count": 1,
+        "prompt": "İlk karedeki aynı yetişkin çizgi kadın, yüz oranları, koyu kahverengi saç, bordo ceket, krem üst, küpe ve saat birebir tutarlı. Profesyonel el çizimi cel estetiği, aynı renkler ve çizgi. Tek sabit kamera. Onaylı oda, ayna ampulleri, neon, kitaplar ve dekor hareketsiz. Yalnızca ekli Türkçe Raina sesinin konuşma zamanları ve heceleriyle dudak, çene ve yanak hareketi; ayna sessiz. İlk 0,65 saniyede aynaya sessizce bakar. Ardından başını küçük bir açıyla kameraya çevirir ve gözleri izleyicinin lensine yerleşir. Yaklaşık 1,20–3,99 saniyede ekli ilk cümleyi kuru, hafif bezgin tonla söyler. Ses kaydındaki 0,7 saniyelik durakta ağzı kapanır ve kısa tek kaş vurgusu gelir. Yaklaşık 4,69–6,51 saniyede fatura sorusu. Hemen ardından iki ağız köşesinden birinde küçük, alaycı kapalı ağız gülümsemesi ve doğal bir göz kırpma. Ellerin pozu korunur, son bakış kamerada."
+      }
+    }
+  ]
+}

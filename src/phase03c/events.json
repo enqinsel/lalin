@@ -1,0 +1,13 @@
+{
+  "fps": 30,
+  "frames": 198,
+  "events": [
+    {
+      "frame": 55,
+      "audio": "lipstick_pickup.wav",
+      "gain": 1.0,
+      "attack_sample": 240,
+      "action": "Başparmak ruj gövdesine değiyor"
+    }
+  ]
+}

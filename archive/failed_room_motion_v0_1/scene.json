@@ -1,0 +1,137 @@
+{
+  "name": "Lalin — Giyinme Odası",
+  "version": "0.1.0-prototype",
+  "canvas": {
+    "width": 1672,
+    "height": 941,
+    "fps": 30
+  },
+  "reference": "source_room.png",
+  "cleanPlate": "assets/clean_plate.jpg",
+  "space": "fixed 2D background, camera-relative pixels",
+  "props": [
+    {
+      "id": "phone",
+      "label": "Telefon",
+      "image": "assets/props/phone.png",
+      "x": 1465,
+      "y": 423,
+      "width": 97,
+      "height": 117,
+      "anchor": [
+        0.52,
+        0.97
+      ],
+      "foley": "phone_vibrate"
+    },
+    {
+      "id": "cat",
+      "label": "Uyuyan kedi",
+      "image": "assets/props/cat.png",
+      "x": 1087,
+      "y": 747,
+      "width": 289,
+      "height": 130,
+      "anchor": [
+        0.5,
+        0.88
+      ],
+      "foley": "cat_purr"
+    },
+    {
+      "id": "flowers",
+      "label": "Çiçekli vazo",
+      "image": "assets/props/flowers.png",
+      "x": 1095,
+      "y": 280,
+      "width": 159,
+      "height": 205,
+      "anchor": [
+        0.5,
+        0.95
+      ],
+      "foley": "glass_tink"
+    }
+  ],
+  "lockedVisuals": [
+    "wardrobe layout",
+    "main mirror",
+    "window and Bosphorus view",
+    "pink/burgundy/gold palette",
+    "neon sign",
+    "furniture locations"
+  ],
+  "futureRiggedAssets": [
+    "curtains",
+    "vanity drawers",
+    "lipstick and its cap",
+    "handbag",
+    "vanity mirror and reflection",
+    "cosmetics",
+    "clothes on hangers",
+    "cat body/face"
+  ],
+  "foleyEvents": [
+    {
+      "name": "heel_step_marble",
+      "event": "foot_contact",
+      "sync": "same-frame",
+      "placeholder": true
+    },
+    {
+      "name": "bag_placed",
+      "event": "bag_surface_contact",
+      "sync": "same-frame",
+      "placeholder": true
+    },
+    {
+      "name": "phone_vibrate",
+      "event": "phone_vibration_onset",
+      "sync": "same-frame",
+      "placeholder": true
+    },
+    {
+      "name": "glass_tink",
+      "event": "glass_collision",
+      "sync": "same-frame",
+      "placeholder": true
+    }
+  ],
+  "constraints": [
+    "At rest reconstruct approved composition",
+    "No random object teleportation",
+    "A prop must disappear from the table while held",
+    "No double-image shadows when an object moves",
+    "Occluded pixels must be independently redrawn for final",
+    "Character mirror reflection must follow movement when visible"
+  ],
+  "notes": "Prototype masks and inpainted clean plate are approximate. Not a production-ready rig or true reflection system.",
+  "instagram": "@lalinsahnede",
+  "audioStatus": "Not included: frame-accurate Foley slots only",
+  "prototypeTimeline": [
+    {
+      "id": "cat_breathe",
+      "fromFrame": 0,
+      "toFrame": 180,
+      "type": "scaleY",
+      "amplitude": 0.007,
+      "hasSound": false
+    },
+    {
+      "id": "flower_sway",
+      "fromFrame": 0,
+      "toFrame": 180,
+      "type": "rotate",
+      "amplitudeRadians": 0.012,
+      "hasSound": false
+    },
+    {
+      "id": "phone_vibrate",
+      "fromFrame": 60,
+      "toFrame": 84,
+      "type": "translateX",
+      "amplitudePx": 2.5,
+      "hasSound": false
+    }
+  ]
+}

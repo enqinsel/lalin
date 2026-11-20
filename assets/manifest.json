@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-11-20",
+  "schema_version": 1,
+  "assets": [
+    {
+      "path": "assets/character/approved_initial_3/01_lalin_full_body_primary.png",
+      "original_source": "a_clean_high_quality_stylized_2d_vector_cel_shad.png",
+      "status": "APPROVED_LOOK_REFERENCE",
+      "note": "İlk onaylanan üçlüden: Lalin ana tam vücut silueti; sağ tarafta boş alan bulunur.",
+      "width": 1199,
+      "height": 1312,
+      "bytes": 1234495,
+      "sha256": "ab0d60991b4ca658afb6567726848ca92ec4cc162981afab62be86da9c6788f6"
+    },
+    {
+      "path": "assets/character/approved_initial_3/02_lalin_expressions_fashion.png",
+      "original_source": "a_high_quality_polished_stylized_2d_cartoon_anim.png",
+      "status": "APPROVED_LOOK_REFERENCE",
+      "note": "İlk onaylanan üçlüden: ifade, poz ve kombin fikirleri. Dönüş çizimleri mekanik rig değildir.",
+      "width": 1024,
+      "height": 1536,
+      "bytes": 2192819,
+      "sha256": "550a9c88149b0e7148860acac62af0527a1a18109597db29cb3e0be477ef8aa0"
+    },
+    {
+      "path": "assets/character/approved_initial_3/03_lalin_expressions_turnaround.png",
+      "original_source": "a_polished_high_detail_vector_cartoon_character.png",
+      "status": "APPROVED_LOOK_REFERENCE",
+      "note": "İlk onaylanan üçlüden: görünüm, farklı mimikler ve kombinler. Tek tek pozlarda tam tutarlılık doğrulanmadı.",
+      "width": 1199,
+      "height": 1312,
+      "bytes": 2350746,
+      "sha256": "6cee0d9f51e8b98bb99c37405c6fa48ab0eb8304ec76c0b839cf71b2eb3d737c"
+    },
+    {
+      "path": "assets/character/additional_concepts/04_lalin_provisional_model_sheet.png",
+      "original_source": "a_detailed_polished_character_model_sheet_pro.png",
+      "status": "ILLUSTRATIVE_ONLY",
+      "note": "Daha sonra üretilen model sheet; tipografi, ağız eşlemeleri ve anatomi hataları olabilir.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2364614,
+      "sha256": "9440ebb7df3e3274cc3bf9697770f3dddebc630d8045a9c536529161d05ff6ff"
+    },
+    {
+      "path": "assets/character/additional_concepts/05_lalin_provisional_model_sheet_v1_1.png",
+      "original_source": "a_highly_detailed_cinematic_professional_charact.png",
+      "status": "ILLUSTRATIVE_ONLY",
+      "note": "Yardımcı konsept sheet; yazılar/ölçüler kaynak gerçekleri olarak alınmamalı.",
+      "width": 1536,
+      "height": 1024,
+      "bytes": 2247602,
+      "sha256": "f9d2191b2c63cb1c7120e3923334af3bddf229ed530d7c77baa5f13449c8c582"
+    },
+    {
+      "path": "assets/environment/APPROVED_lalin_room_master.png",
+      "original_source": "a_highly_detailed_colorful_stylish_2d_animated.png",
+      "status": "APPROVED_ENVIRONMENT",
+      "note": "Renkli pembe-bordo-altın giyinme odası. Kadraj/yerleşim/estetik kesin referans.",
+      "width": 1672,
+      "height": 941,
+      "bytes": 2642840,
+      "sha256": "31f362fa753472768f70a0c33b37e9a8552c8b493ed0270c013cc07f2b1a4bf2"
+    },
+    {
+      "path": "assets/voice/voice_picker_raina_ui.png",
+      "original_source": "image.png",
+      "status": "UI_REFERENCE_ONLY",
+      "note": "Higgsfield preset Raina kullanıcı arayüzü ekran görüntüsü; gerçek ses dosyası değildir.",
+      "width": 665,
+      "height": 631,
+      "bytes": 211094,
+      "sha256": "0033c904a5e55850c1963c62ac2b3a07eb0f27fe42b0598050357367d1c62c43"
+    }
+  ]
+}

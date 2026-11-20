@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="54" viewBox="-35 19 64 54">
+<defs>
+<linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="25%">
+  <stop stop-color="#ae593e"/><stop offset=".26" stop-color="#ef986f"/><stop offset=".63" stop-color="#ffb78e"/><stop offset="1" stop-color="#e38c65"/>
+</linearGradient>
+</defs>
+<path d="M-27 35 C-20 27-15 27-9 30 L0 36 C5 38 11 36 16 36 Q25 36 25 42 C26 48 19 50 11 49 L0 52 C-6 55-10 62-17 62 C-23 62-29 57-30 51 C-31 45-30 39-27 35Z" fill="url(#skin)" stroke="#99523f" stroke-width="1.45"/>
+<path d="M-20 35 Q-15 30-10 33 L-2 38 M-16 58 Q-7 53-5 51" fill="none" stroke="#f5a27c" stroke-width="1.25" stroke-linecap="round"/>
+<path d="M15 38 Q24 36 24 41 Q23 47 16 47 Q13 44 15 38Z" fill="#883d45" stroke="#6a2b35" stroke-width=".8"/>
+<path d="M17 39 L21 39" stroke="#d18a89" stroke-width=".65" stroke-linecap="round"/>
+</svg>

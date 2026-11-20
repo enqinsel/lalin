@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="114" height="106" viewBox="-15 -100 114 106">
+<defs>
+<linearGradient id="skin" x1="0%" y1="0%" x2="100%" y2="25%">
+  <stop stop-color="#ae593e"/><stop offset=".26" stop-color="#ef986f"/><stop offset=".63" stop-color="#ffb78e"/><stop offset="1" stop-color="#e38c65"/>
+</linearGradient>
+<linearGradient id="heel" x1="0%" y1="85%" x2="85%" y2="8%">
+  <stop stop-color="#321016"/><stop offset=".22" stop-color="#490f1b"/><stop offset=".62" stop-color="#6b1c29"/><stop offset=".87" stop-color="#8c3540"/><stop offset="1" stop-color="#b86a74"/>
+</linearGradient>
+</defs>
+<path d="M-4-89 Q18-95 48-91 C48-73 48-62 55-48 L65-37 C53-29 24-27 15-36 C11-45 5-65-4-70Z" fill="url(#skin)" stroke="#a15d44" stroke-width="1.75"/>
+<path d="M-3-89 Q15-94 47-90 L50-70 Q32-83 2-70Z" fill="#ad644a" opacity=".77"/>
+<path d="M-9-55 Q-1-59 9-55 L22-47 Q17-38 8-33 L4-1 Q2 2-3 0 L-3-37 Q-11-43-9-55Z" fill="#351017" stroke="#37131a" stroke-width="1.55"/>
+<path d="M0-46 L3-43 L0-2" fill="none" stroke="#caa279" stroke-width="2.7" opacity=".76" stroke-linecap="round"/>
+<path d="M8-53 Q15-52 21-45 C27-34 40-34 57-41 L63-45 C69-42 71-37 76-27 L93-7 Q98 1 90 2 Q64 3 36-2 C22-4 17-8 16-17 L12-37Z" fill="url(#heel)" stroke="#311016" stroke-width="2.2"/>
+<path d="M19-17 C22-8 28-8 39-7 Q65-2 90-1" stroke="#2d0e16" stroke-width="2.4" fill="none"/>
+<path d="M30-30 Q49-25 61-28 C68-32 74-22 78-16 C62-22 50-24 41-27Z" fill="#a64c59" opacity=".57"/>
+<path d="M43-25 Q69-20 86-8" fill="none" stroke="#e29ba1" stroke-linecap="round" stroke-width="2.15" opacity=".58"/>
+<path d="M25-39 Q38-31 57-39" fill="none" stroke="#d37b84" stroke-width="1.6" opacity=".65"/>
+</svg>

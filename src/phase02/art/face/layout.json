@@ -1,0 +1,112 @@
+{
+  "hair_far": {
+    "file": "hair_far.png",
+    "offset": [
+      -48,
+      -37
+    ],
+    "pivot": [
+      -74,
+      -37
+    ]
+  },
+  "hair_near": {
+    "file": "hair_near.png",
+    "offset": [
+      -34,
+      -37
+    ],
+    "pivot": [
+      64,
+      -30
+    ]
+  },
+  "eye_left_liner": {
+    "file": "eye_left_liner.png",
+    "offset": [
+      -35,
+      -16
+    ],
+    "pivot": [
+      -46,
+      -83
+    ]
+  },
+  "eye_left_mask": {
+    "file": "eye_left_mask.png",
+    "offset": [
+      -17,
+      -10
+    ],
+    "pivot": [
+      -46,
+      -83
+    ]
+  },
+  "brow_left": {
+    "file": "brow_left.png",
+    "offset": [
+      -29,
+      -10
+    ],
+    "pivot": [
+      -43,
+      -118
+    ]
+  },
+  "eye_right_liner": {
+    "file": "eye_right_liner.png",
+    "offset": [
+      -24,
+      -22
+    ],
+    "pivot": [
+      25,
+      -100
+    ]
+  },
+  "eye_right_mask": {
+    "file": "eye_right_mask.png",
+    "offset": [
+      -18,
+      -10
+    ],
+    "pivot": [
+      25,
+      -100
+    ]
+  },
+  "brow_right": {
+    "file": "brow_right.png",
+    "offset": [
+      -22,
+      -12
+    ],
+    "pivot": [
+      19,
+      -131
+    ]
+  },
+  "lips": {
+    "file": "lips.png",
+    "offset": [
+      -36,
+      -16
+    ],
+    "pivot": [
+      4,
+      -53
+    ]
+  },
+  "head_skin": {
+    "file": "head_skin.png",
+    "offset": [
+      -132,
+      -197
+    ],
+    "pivot": [
+      0,
+      0
+    ]
+  }
+}

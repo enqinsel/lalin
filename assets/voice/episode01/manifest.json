@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "episode": "01",
+  "title": "Ayna Bile Trip Atıyor",
+  "voice": {
+    "role": "Lalin",
+    "provider": "Higgsfield",
+    "preset_name": "Raina",
+    "voice_type": "preset",
+    "voice_id": "1c3a4775-9afb-52c1-a2bf-b6543231a9a1",
+    "model": "elevenlabs_v4",
+    "provider_model": "Eleven v4",
+    "requested_locale": "tr-TR"
+  },
+  "billing": {
+    "approved_on": "2026-11-20",
+    "quoted_and_approved_credits_exact": 2.07,
+    "generation_count": 3,
+    "settled_charge_verified": false,
+    "note_tr": "Kesin teklif onaylandı. MCP tamamlanma kayıtları sonuçları ve modeli doğruladı, kesinleşen kesintiyi göstermedi."
+  },
+  "clips": [
+    {
+      "plan": 1,
+      "spoken_text": "Bugün sakin kalacağım. Kimseyle tartışmak yok.",
+      "request": {
+        "model": "elevenlabs_v4",
+        "count": 1,
+        "use_unlim": false,
+        "prompt": "[natural Istanbul Turkish, quiet self-reminder, calmly determined] Bugün sakin kalacağım. Kimseyle tartışmak yok.",
+        "dialogue": [
+          {
+            "text": "[natural Istanbul Turkish, quiet self-reminder, calmly determined] Bugün sakin kalacağım. Kimseyle tartışmak yok.",
+            "voice_type": "preset",
+            "voice_id": "1c3a4775-9afb-52c1-a2bf-b6543231a9a1"
+          }
+        ],
+        "batch_size": 1
+      },
+      "job_id": "8d8e5910-3023-477d-a5a8-715f45bcda63",
+      "status": "completed",
+      "quoted_credits_exact": 0.69,
+      "path": "assets/voice/episode01/plan01.mp3",
+      "codec": "mp3",
+      "bit_rate_bps": 128000,
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bytes": 54378,
+      "duration_seconds": 3.395875,
+      "sha256": "f4ff256268a5ae2cb4967f79c6a0664abe9875cf6f39e8485079e39ca0b504b7",
+      "measurement": {
+        "silence_threshold_db": -35,
+        "min_silence_seconds": 0.055,
+        "silence_spans_seconds": [
+          [
+            0,
+            0.142472
+          ],
+          [
+            1.361111,
+            1.746349
+          ],
+          [
+            2.912744,
+            3.004762
+          ],
+          [
+            3.107868,
+            3.395918
+          ]
+        ],
+        "mean_dbfs": -22.7,
+        "peak_dbfs": -4.7
+      },
+      "transcript_check": {
+        "model": "whisper small",
+        "transcript": "Bugün sakin kalacağım. Kimseyle tartışmak yok.",
+        "result": "words_match"
+      }
+    },
+    {
+      "plan": 2,
+      "spoken_text": "Ay, sen niye kısıldın şimdi?",
+      "request": {
+        "model": "elevenlabs_v4",
+        "count": 1,
+        "use_unlim": false,
+        "prompt": "[natural Istanbul Turkish, mild surprise, direct and understated] Ay, sen niye kısıldın şimdi?",
+        "dialogue": [
+          {
+            "text": "[natural Istanbul Turkish, mild surprise, direct and understated] Ay, sen niye kısıldın şimdi?",
+            "voice_type": "preset",
+            "voice_id": "1c3a4775-9afb-52c1-a2bf-b6543231a9a1"
+          }
+        ],
+        "batch_size": 1
+      },
+      "job_id": "a5ed5883-6cf4-44c2-90a8-af1a63060f90",
+      "status": "completed",
+      "quoted_credits_exact": 0.46,
+      "path": "assets/voice/episode01/plan02.mp3",
+      "codec": "mp3",
+      "bit_rate_bps": 128000,
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bytes": 41421,
+      "duration_seconds": 2.586063,
+      "sha256": "2916a7dca582cc13547093b9f4b417ee78cc20b86755df9c8aa9b1d61824ac9e",
+      "measurement": {
+        "silence_threshold_db": -35,
+        "min_silence_seconds": 0.055,
+        "silence_spans_seconds": [
+          [
+            0,
+            0.118889
+          ],
+          [
+            0.526961,
+            0.624717
+          ],
+          [
+            2.258707,
+            2.586122
+          ]
+        ],
+        "mean_dbfs": -19.1,
+        "peak_dbfs": -4.7
+      },
+      "transcript_check": {
+        "model": "whisper small",
+        "transcript": "Ay sen niye kısıldın şimdi?",
+        "result": "words_match"
+      }
+    },
+    {
+      "plan": 4,
+      "spoken_text": "Çok güzel. Evde de trip yemeye başladık. Elektrik faturasını kim ödüyor acaba?",
+      "request": {
+        "model": "elevenlabs_v4",
+        "count": 1,
+        "use_unlim": false,
+        "prompt": "[natural Istanbul Turkish, dry deadpan, quietly sarcastic] Çok güzel. Evde de trip yemeye başladık. [short pause] [with dry amusement] Elektrik faturasını kim ödüyor acaba?",
+        "dialogue": [
+          {
+            "text": "[natural Istanbul Turkish, dry deadpan, quietly sarcastic] Çok güzel. Evde de trip yemeye başladık. [short pause] [with dry amusement] Elektrik faturasını kim ödüyor acaba?",
+            "voice_type": "preset",
+            "voice_id": "1c3a4775-9afb-52c1-a2bf-b6543231a9a1"
+          }
+        ],
+        "batch_size": 1
+      },
+      "job_id": "407176f6-580b-4340-b894-5a87e0e39d46",
+      "status": "completed",
+      "quoted_credits_exact": 0.92,
+      "path": "assets/voice/episode01/plan04.mp3",
+      "codec": "mp3",
+      "bit_rate_bps": 128000,
+      "sample_rate_hz": 44100,
+      "channels": 1,
+      "bytes": 90323,
+      "duration_seconds": 5.642438,
+      "sha256": "34035a31d901ce19dffb4ea1d0d45f5474566d1ec5f7e15cc62720001d4ad865",
+      "measurement": {
+        "silence_threshold_db": -35,
+        "min_silence_seconds": 0.055,
+        "silence_spans_seconds": [
+          [
+            0,
+            0.123379
+          ],
+          [
+            0.290295,
+            0.400431
+          ],
+          [
+            0.975079,
+            1.253129
+          ],
+          [
+            1.89737,
+            1.964671
+          ],
+          [
+            2.695283,
+            2.767959
+          ],
+          [
+            2.903311,
+            3.599955
+          ],
+          [
+            5.423719,
+            5.642449
+          ]
+        ],
+        "mean_dbfs": -23.6,
+        "peak_dbfs": -6.3,
+        "comic_pause_seconds": 0.696644
+      },
+      "transcript_check": {
+        "model": "whisper medium",
+        "transcript": "Çok güzel. Evde de trip yemeğe başladık. Elektrik faturasını kim ödüyor acaba?",
+        "result": "one_pronunciation_or_asr_spelling_uncertainty",
+        "note_tr": "Orijinal istek ve üretim metni “yemeye”. Bağımsız tanıma bunu “yemeğe” yazdı. Medium, son sorudaki ‘kim ödüyor’ ifadesini doğruladı."
+      }
+    }
+  ],
+  "reused_clip": {
+    "source": "assets/voice/raina_pilot_line.mp3",
+    "plan": 3,
+    "quoted_credits_for_episode": 0,
+    "speech_activity_seconds": [
+      0.124286,
+      2.822902
+    ],
+    "chuckle_activity_seconds": [
+      3.094807,
+      3.375125
+    ]
+  }
+}

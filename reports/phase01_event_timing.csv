@@ -1,0 +1,24 @@
+klip,kare,zaman_s,eylem,sfx_girisi,sfx_ornek_48khz,gozlem
+lalin_face_test,0,0.000,Başlangıç yarım gülüşü,,,Onaylı 02 portresinin başlangıç ifadesi
+lalin_face_test,15,0.500,Yan bakış,,,İrisler kaş jestinden önce yön değiştiriyor
+lalin_face_test,27,0.900,Alaycı bakış,,,Ekran solundaki kaş yukarıda ve baş eğik
+lalin_face_test,49,1.633,Göz devirmeye geçiş,,,İrisler yukarı kayıyor ve üst kapaklar eşlik ediyor
+lalin_face_test,56,1.867,Bakışın yukarıda kalışı,,,İrisler aynı hedefe bakıyor
+lalin_face_test,68,2.267,Göz kırpmanın en kapalı karesi,,,İrisler kapakların arkasında
+lalin_face_test,79,2.633,Şaşırma,,,İki kaş ve kapak yukarıda ve çene aşağıda
+lalin_face_test,102,3.400,Gülüş hazırlığı,,,Ağız köşesi yükseliyor
+lalin_face_test,114,3.800,Sessiz kahkaha ilk vurgusu,,,Ağız açılıyor ve yanak ile omuz yükseliyor
+lalin_face_test,121,4.033,Kahkaha ara vuruşu,,,Çene ve omuz gevşiyor
+lalin_face_test,127,4.233,Sessiz kahkaha ikinci vurgusu,,,Baş ve omuz yeniden kalkıyor
+lalin_face_test,149,4.967,Son yarım gülüş,,,Kaynak göz dokusuna dönüyor
+lalin_prop_test,0,0.000,Ruj masada,,,Kadrajda tek ruj
+lalin_prop_test,5,0.167,El kadraja giriyor,,,Başparmak ve diğer parmaklar açık
+lalin_prop_test,18,0.600,Başparmak gövdeye değiyor,Geçici sentetik kavrama kliki,28800,Eşik başlangıcı ve ses tepesi örnek 28800
+lalin_prop_test,21,0.700,Tutuş tamamlanıyor,,,Ruj elin hareketine bağlanıyor
+lalin_prop_test,26,0.867,Ruj masadan ayrılıyor,,,Altta ikinci ruj kalmıyor
+lalin_prop_test,43,1.433,Elde yükseliş,,,Temas gölgesi açılıyor ve yumuşuyor
+lalin_prop_test,59,1.967,Son bağlı kare,,,Ruj hâlâ parmakların arasında
+lalin_prop_test,60,2.000,Başparmak açılıyor ve ruj düşüyor,,,Ruj elden bağımsız ilerliyor
+lalin_prop_test,63,2.100,Ruj masaya değiyor,Geçici sentetik masa kliki,100800,Eşik başlangıcı ve ses tepesi örnek 100800
+lalin_prop_test,65,2.167,Küçük sekme,,,Ruj tabanı yeniden masadan ayrılıyor
+lalin_prop_test,67,2.233,Ruj yeniden masada,,,El çekilirken ruj sabitleniyor

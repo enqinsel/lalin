@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lalin — Giyinme Odası / Etkileşimli Katman Testi</title>
+<style>
+:root { color-scheme: dark; --bg:#141015;--panel:#211920;--stroke:#40303e;--pink:#f8a4cb;--muted:#c8b8c3; --gold:#f6cf88; }
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at 50% 0,#392039,#120e13 75%);font:15px/1.45 system-ui,-apple-system,'Segoe UI',sans-serif;color:#fff7fb}
+main{max-width:1600px;margin:0 auto;padding:30px 26px 54px}header{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:18px}
+h1{font-size:24px;letter-spacing:-.035em;margin:0}p{margin:5px 0 0;color:var(--muted)}.chip{padding:5px 10px;border:1px solid #8f5576;color:#ffc9e3;background:#493044;border-radius:999px;font-size:12px}
+.layout{display:grid;grid-template-columns:minmax(0, 1fr) 288px;gap:20px;align-items:start}.stage{background:#171018;padding:11px;border:1px solid #4f3449;border-radius:14px;box-shadow:0 22px 68px #0007}
+canvas{display:block;width:100%;aspect-ratio:1672 / 941;background:#cda8b2;border-radius:6px}.transport{display:flex;align-items:center;gap:12px;margin-top:14px;flex-wrap:wrap}
+button{font:inherit;cursor:pointer;border-radius:9px;padding:10px 14px;border:1px solid #714963;background:#422a3c;color:#fff}button:hover{background:#674058}button.primary{background:#ec91b9;color:#2a0e1f;border-color:#ec91b9;font-weight:750}button:focus-visible,input:focus-visible{outline:3px solid #ffb1d7;outline-offset:3px}
+input[type=range]{flex:1;min-width:130px;accent-color:#f2a0cc}#clock{color:var(--gold);min-width:94px;font-variant-numeric:tabular-nums}aside{background:#201922;border:1px solid #4c3448;border-radius:14px;padding:19px}h2{font-size:17px;margin:0 0 12px}h3{font-size:13px;text-transform:uppercase;letter-spacing:.07em;color:#c9a5bb;margin:23px 0 8px}
+label{display:flex;align-items:center;gap:8px;cursor:pointer;margin:13px 0;color:#fce5f1;font-size:14px}input[type=checkbox]{accent-color:#ec91b9;width:16px;height:16px}code{color:var(--gold);font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.event{padding:9px 11px;border-left:3px solid #b85791;background:#2a1e2a;margin:8px 0;border-radius:2px 8px 8px 2px;font-size:13px}small{color:#bba5b2}footer{margin-top:14px;font-size:12px;color:#bba5b2;line-height:1.55}
+@media(max-width:1050px){.layout{grid-template-columns:1fr}aside{order:2}}@media(max-width:680px){main{padding:18px 10px}h1{font-size:20px}.transport{gap:7px}button{padding:9px} aside{padding:15px}}
+</style>
+</head>
+<body><main>
+<header><div><h1>Lalin'in Giyinme Odası</h1><p>@lalinsahnede · Sahne varlıkları ve hareket senkronu / v0.1</p></div><span class="chip">KATMAN TESTİ — nihai animasyon değil</span></header>
+<div class="layout">
+<div class="stage">
+<canvas id="scene" width="1672" height="941" aria-label="Lalin giyinme odası sahnesi, telefon, kedi ve çiçek animasyon katmanları" role="img"></canvas>
+<div class="transport"><button class="primary" id="toggle">▶ Oynat</button><button id="restart">↺ Baştan</button><button id="step">+1 kare</button><span id="clock">00:00 / 00:06</span><input aria-label="Zaman çizgisi" type="range" min="0" max="180" step="1" value="0" id="seek" /></div>
+<footer>Onaylı oda görseli korunmuştur. Bağımsız katmanlar: telefon titreşimi (2.00–2.80 sn), kedi nefesi (tüm sahne), çiçeklerin hafif salınımı (tüm sahne). Kesilen varlıklar prototip maskeleriyle ayrılmıştır: büyük hareketlerde arkadaki bozuk alanlar görünür. Gerçek pilot için temiz arka yüzeyler ve rig gereklidir.</footer>
+</div>
+<aside>
+<h2>Sahne kontrolü</h2>
+<label><input type="checkbox" id="motion" checked/> Nesne hareketlerini göster</label>
+<label><input type="checkbox" id="clean" /> Temiz plate'i göster (kontrol)</label>
+<label><input type="checkbox" id="original" /> Orijinal onaylı görsel</label>
+<label><input type="checkbox" id="bounds" /> Nesne sınırlarını göster</label>
+<h3>Üretim kuralı</h3>
+<div class="event"><b>Telefon</b> 02:00 · titreşim / <code>phone_vibrate</code></div>
+<div class="event"><b>Kedi</b> 00:00–06:00 · hafif nefes / <code>cat_breath</code></div>
+<div class="event"><b>Çiçek</b> 00:00–06:00 · çok hafif salınım / <code>flower_sway</code></div>
+<h3>Ses zamanlaması</h3>
+<p style="font-size:13px">Bu demo <b>sessizdir</b>. Ses olaylarının kareleri <code>scene.json</code> dosyasında tanımlı; gerçek Foley dosyaları henüz eklenmedi.</p>
+<h3>Bir sonraki adım</h3>
+<p style="font-size:13px">Üretim kalitesinde katmanlar, elde alınabilen nesneler ve Lalin'in sahneye girişinin ardından kare hassasiyetinde Foley miksajı.</p>
+</aside>
+</div></main>
+<script>
+const W=1672,H=941,FPS=30,DURATION=6;
+const files={base:'assets/clean_plate.jpg',original:'source_room.png',phone:'assets/props/phone.png',cat:'assets/props/cat.png',flowers:'assets/props/flowers.png'};
+const props={phone:{x:1465,y:423,w:97,h:117},cat:{x:1087,y:747,w:289,h:130},flowers:{x:1095,y:280,w:159,h:205}};
+const images={};let loaded=0;
+const canvas=document.querySelector('#scene'),ctx=canvas.getContext('2d');
+const btn=document.querySelector('#toggle'),timer=document.querySelector('#clock'),seek=document.querySelector('#seek');
+let playing=false, current=0,last=0;
+for(const [id,src] of Object.entries(files)){const im=new Image();im.onload=()=>{loaded++;render()}; im.onerror=()=>{console.warn('Görsel eksik',src)};im.src=src;images[id]=im;}
+function draw(id,x=0,y=0,w=W,h=H){if(images[id]?.complete&&images[id].naturalWidth)ctx.drawImage(images[id],x,y,w,h)}
+function prop(id,action){const p=props[id];if(!images[id]?.complete||!images[id].naturalWidth)return;
+  const ox=p.x+p.w*.5,oy=p.y+p.h*.93;
+  ctx.save();ctx.translate(ox,oy); ctx.rotate(action.angle||0);ctx.scale(action.sx||1,action.sy||1); ctx.translate(-ox,-oy);
+  ctx.drawImage(images[id],p.x+(action.dx||0),p.y+(action.dy||0),p.w,p.h);ctx.restore();
+  if(document.querySelector('#bounds').checked){ctx.strokeStyle='#ffec98';ctx.lineWidth=2;ctx.strokeRect(p.x,p.y,p.w,p.h)}
+}
+function render(){if(loaded<5)return;ctx.clearRect(0,0,W,H);
+ if(document.querySelector('#original').checked){draw('original');return}
+ draw('base');if(document.querySelector('#clean').checked)return;
+ const moving=document.querySelector('#motion').checked, t=current;
+ const flowers={angle:moving?Math.sin(t*1.22)*.012:0};
+ const buzz=moving&&t>=2&&t<2.8?Math.sin((t-2)*Math.PI*30)*2.5:0;
+ const phone={dx:buzz,angle:moving&&t>=2&&t<2.8?Math.sin((t-2)*Math.PI*30)*.006:0};
+ const cat={sy:moving?1+Math.sin(t*2.3)*.007:1,dy:moving?Math.sin(t*2.3)*.5:0};
+ prop('flowers',flowers);prop('phone',phone);prop('cat',cat);
+}
+function refreshClock(){let s=Math.floor(current);timer.textContent=`00:${String(s).padStart(2,'0')} / 00:06`;seek.value=Math.min(Math.round(current*FPS),180)}
+function tick(now){if(!last)last=now;const d=Math.min(.05,(now-last)/1000);last=now;if(playing){current+=d;if(current>=DURATION){current=0;playing=false;btn.textContent='▶ Oynat'}refreshClock();render()}requestAnimationFrame(tick)}requestAnimationFrame(tick);
+btn.onclick=()=>{playing=!playing;btn.textContent=playing?'Ⅱ Duraklat':'▶ Oynat'};
+document.querySelector('#restart').onclick=()=>{current=0;refreshClock();render()};
+document.querySelector('#step').onclick=()=>{playing=false;btn.textContent='▶ Oynat';current=(Math.round(current*FPS)+1)%(DURATION*FPS+1)/FPS;refreshClock();render()};
+seek.addEventListener('input',()=>{current=Number(seek.value)/FPS;refreshClock();render()});
+for(const id of ['motion','clean','original','bounds'])document.querySelector('#'+id).addEventListener('change',render);
+</script>
+</body></html>

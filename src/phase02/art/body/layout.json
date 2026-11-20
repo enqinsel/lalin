@@ -1,0 +1,137 @@
+{
+  "parts": {
+    "torso": {
+      "file": "torso.svg",
+      "offset": [
+        -151,
+        -296
+      ],
+      "size": [
+        302,
+        363
+      ]
+    },
+    "upper_arm": {
+      "file": "upper_arm.svg",
+      "offset": [
+        -53,
+        -26
+      ],
+      "size": [
+        106,
+        194
+      ]
+    },
+    "forearm": {
+      "file": "forearm.svg",
+      "offset": [
+        -41,
+        -25
+      ],
+      "size": [
+        82,
+        173
+      ]
+    },
+    "upper_leg": {
+      "file": "upper_leg.svg",
+      "offset": [
+        -79,
+        -43
+      ],
+      "size": [
+        158,
+        391
+      ]
+    },
+    "lower_leg": {
+      "file": "lower_leg.svg",
+      "offset": [
+        -100,
+        -34
+      ],
+      "size": [
+        200,
+        360
+      ]
+    },
+    "shoe": {
+      "file": "shoe.svg",
+      "offset": [
+        -15,
+        -100
+      ],
+      "size": [
+        114,
+        106
+      ]
+    },
+    "hand_open": {
+      "file": "hand_open.svg",
+      "offset": [
+        -39,
+        -12
+      ],
+      "size": [
+        83,
+        103
+      ]
+    },
+    "hand_grip_back": {
+      "file": "hand_grip_back.svg",
+      "offset": [
+        -35,
+        -12
+      ],
+      "size": [
+        74,
+        92
+      ]
+    },
+    "hand_grip_front": {
+      "file": "hand_grip_front.svg",
+      "offset": [
+        -35,
+        19
+      ],
+      "size": [
+        64,
+        54
+      ]
+    }
+  },
+  "joints": {
+    "torso": [
+      0,
+      0
+    ],
+    "upper_arm": [
+      0,
+      147
+    ],
+    "forearm": [
+      0,
+      129
+    ],
+    "upper_leg": [
+      0,
+      315
+    ],
+    "lower_leg": [
+      0,
+      310
+    ],
+    "shoe_heel": [
+      0,
+      0
+    ],
+    "shoe_ankle": [
+      22,
+      -62
+    ],
+    "grip": [
+      4,
+      44
+    ]
+  }
+}

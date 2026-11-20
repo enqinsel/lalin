@@ -1,0 +1,59 @@
+{
+  "sample_rate_hz": 48000,
+  "channels": 1,
+  "format": "PCM s16le WAV",
+  "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "attack_detection": "First 1 ms RMS window above 10% of the strongest 1 ms RMS.",
+  "source_note": "CC0 public high-quality preview decoded with FFmpeg, mono, trimmed with 2 ms and 15 ms boundary fades and level adjustment. Cloth high-pass noted separately.",
+  "assets": [
+    {
+      "file": "lipstick_cap.wav",
+      "title": "Opening and Closing lipstick slowly.wav",
+      "author": "200221-WeanBekker",
+      "source": "https://freesound.org/people/200221-WeanBekker/sounds/543712/",
+      "public_preview": "https://cdn.freesound.org/previews/543/543712_11072224-hq.mp3",
+      "recorded_action": "RODE NT1-A lipstick open/close recording, first isolated housing click for cap release.",
+      "trim_start_ms": 1654,
+      "trim_end_ms": 1768,
+      "target_peak_dbfs": -10,
+      "attack_sample": 240,
+      "peak_sample": 271,
+      "duration_samples": 5472,
+      "license": "CC0-1.0",
+      "sha256": "e2d9b094850513f1cf1eabc94989ac92074f5bd4c7d392d2e7f08897557fde99"
+    },
+    {
+      "file": "bracelet.wav",
+      "title": "Jewelry-003.wav",
+      "author": "MaGs_007",
+      "source": "https://freesound.org/people/MaGs_007/sounds/349363/",
+      "public_preview": "https://cdn.freesound.org/previews/349/349363_3935168-hq.mp3",
+      "recorded_action": "First isolated jewelry clink, used for the bracelet moving against the wrist.",
+      "trim_start_ms": 1302,
+      "trim_end_ms": 1410,
+      "target_peak_dbfs": -19,
+      "attack_sample": 240,
+      "peak_sample": 270,
+      "duration_samples": 5184,
+      "license": "CC0-1.0",
+      "sha256": "5d03055669a8ad11df563ca44eaf8677b1b27219639f665c603cce80b54ca82b"
+    },
+    {
+      "file": "cloth.wav",
+      "title": "Clothing Ruffle 03-1.wav",
+      "author": "WhiteFire43",
+      "source": "https://freesound.org/people/WhiteFire43/sounds/641381/",
+      "public_preview": "https://cdn.freesound.org/previews/641/641381_14113815-hq.mp3",
+      "recorded_action": "Short cloth rustle. 120 Hz high-pass removes microphone handling rumble.",
+      "trim_start_ms": 2320,
+      "trim_end_ms": 2650,
+      "target_peak_dbfs": -21,
+      "high_pass_hz": 120,
+      "attack_sample": 432,
+      "peak_sample": 9146,
+      "duration_samples": 15840,
+      "license": "CC0-1.0",
+      "sha256": "4721727c3f473eaeb0ed374eb53beaa03fbb9aea80dec97910647dd8df569c59"
+    }
+  ]
+}

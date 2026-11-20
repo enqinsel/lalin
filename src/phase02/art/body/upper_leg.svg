@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="158" height="391" viewBox="-79 -43 158 391">
+<defs>
+<linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="22%">
+  <stop stop-color="#ae836d"/><stop offset=".22" stop-color="#e4c6ac"/><stop offset=".52" stop-color="#f9e5ce"/><stop offset=".78" stop-color="#e5c3a9"/><stop offset="1" stop-color="#bc937d"/>
+</linearGradient>
+</defs>
+<path d="M-60-31 Q-40-40-2-39 Q42-40 63-32 C75-11 77 37 69 71 C64 112 60 148 58 177 C55 220 62 254 65 282 C67 303 66 326 57 337 Q10 344-47 338 C-58 315-64 279-64 251 C-67 202-73 162-72 112 C-74 70-76 9-60-31Z" fill="url(#cream)" stroke="#89604f" stroke-width="2.1"/>
+<path d="M57-23 C62 47 46 92 41 133 C34 181 46 236 54 284 Q58 304 54 329 L62 328 C69 289 60 241 56 213 C51 171 60 124 67 92 C74 56 77 13 65-19Z" fill="#b28a74" opacity=".45"/>
+<path d="M-54-16 C-51 4-56 33-61 45 C-51 42-42 24-38 14" fill="none" stroke="#a9806d" stroke-width="2.1" opacity=".75"/>
+<path d="M-44 25 C-33 71-30 132-26 168 C-24 193-18 208-16 229 C-18 179-14 151-16 119 Q-16 58-29 33Z" fill="#fdf0da" opacity=".68"/>
+<path d="M-56 50 C-53 121-47 171-44 210 C-39 262-33 284-17 320 C-36 307-46 279-49 262 C-60 204-61 127-61 76Z" fill="#b18975" opacity=".53"/>
+<path d="M9 55 Q20 111 15 164 C14 198 14 241 24 277" fill="none" stroke="#b58a74" stroke-width="1.6" opacity=".57" stroke-linecap="round"/>
+<path d="M-42 291 Q-33 308-27 327 M38 303 L43 323" fill="none" stroke="#b48872" stroke-width="1.45" opacity=".47"/>
+</svg>

@@ -1,0 +1,62 @@
+{
+  "title": "Ayna Bile Trip Atıyor",
+  "fps": 30,
+  "shots": [
+    {
+      "id": 1,
+      "title": "Hazırlık",
+      "seconds": 7,
+      "camera": [962, 0, 941],
+      "actor": [-310, 462, 2.30],
+      "start_darkness": 0,
+      "acting": "Aynaya yukarıdan aşağı bakar. Çeneye yakın eliyle omuz hizasındaki saçı küçük bir hareketle düzeltir. Sakin ve kararlı konuşur.",
+      "light_cues": [[0, 0], [186, 0], [194, 0.52]],
+      "speech": {"path": "assets/voice/episode01/plan01.mp3", "trim": [0.06, 3.22], "delay": 2.7},
+      "lines": ["Bugün sakin kalacağım. Kimseyle tartışmak yok."],
+      "video_credits": 17.5,
+      "voice_credits": 0.69
+    },
+    {
+      "id": 2,
+      "title": "İlk tepki",
+      "seconds": 5,
+      "camera": [1003, 0, 941],
+      "actor": [-270, 498, 2.83],
+      "start_darkness": 0.52,
+      "acting": "Kısa bir duraksama. Gözleri sağdaki aynaya kayar. Şaşkınlık hafifçe kaşa ve yanağa yayılır.",
+      "light_cues": [[0, 0.52], [109, 0.52], [112, 0], [116, 0], [122, 0.67]],
+      "speech": {"path": "assets/voice/episode01/plan02.mp3", "trim": [0.04, 2.38], "delay": 0.68},
+      "lines": ["Ay, sen niye kısıldın şimdi?"],
+      "video_credits": 12.5,
+      "voice_credits": 0.46
+    },
+    {
+      "id": 3,
+      "title": "Lalin'in cevabı",
+      "seconds": 6,
+      "camera": [1014, 20, 900],
+      "actor": [-325, 445, 3.00],
+      "start_darkness": 0.67,
+      "acting": "Tek kaşı kaldırır. Çene ve ağız repliğe eşlik eder. Ses kendinden emin ve hafif sinirli, göz hedefi aynada.",
+      "light_cues": [[0, 0.67], [161, 0.67], [165, 1]],
+      "speech": {"path": "assets/voice/raina_pilot_line.mp3", "trim": [0.06, 2.95], "delay": 1.65},
+      "lines": ["Ben senin fikrini değil, ışığını sordum."],
+      "video_credits": 15,
+      "voice_credits": 0
+    },
+    {
+      "id": 4,
+      "title": "Komik final",
+      "seconds": 10,
+      "camera": [985, 0, 941],
+      "actor": [-237, 497, 2.80],
+      "start_darkness": 1,
+      "acting": "Aynaya susarak bakar. Bakışını ve başını hafifçe kameraya çevirir. İlk cümleyi kuru bir tonla verir. Son sorudan sonra alaycı gülümsemesi kadrajda kalır.",
+      "light_cues": [[0, 1]],
+      "speech": {"path": "assets/voice/episode01/plan04.mp3", "trim": [0.045, 5.53], "delay": 1.13},
+      "lines": ["Çok güzel. Evde de trip yemeye başladık.", "Elektrik faturasını kim ödüyor acaba?"],
+      "video_credits": 25,
+      "voice_credits": 0.92
+    }
+  ]
+}

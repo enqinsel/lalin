@@ -1,0 +1,32 @@
+{
+  "project": "LALIN",
+  "instagram": "@lalinsahnede",
+  "version": "1.0",
+  "character_name": "Lalin",
+  "age": 30,
+  "language": "tr-TR",
+  "audience": "Turkey / women / young adults",
+  "character_reference_directory": "assets/character/approved_initial_3",
+  "room_reference": "assets/environment/APPROVED_lalin_room_master.png",
+  "voice": {
+    "service": "Higgsfield",
+    "preset": "Raina",
+    "identity_status": "v1_approved_by_user",
+    "audio_asset_present": false
+  },
+  "animation_method": "undecided_until_phase01_QA",
+  "pilot": {
+    "min_seconds": 8,
+    "target_seconds": 12,
+    "max_seconds": 15,
+    "aspect_ratio": "9:16",
+    "fps": 30
+  },
+  "monetization_and_license_status": "deferred_not_verified",
+  "role_split": {
+    "Codex": "technical production",
+    "ChatGPT": "direction and QA",
+    "User": "approvals and external costs"
+  },
+  "do_not_use_archive_as_baseline": true
+}

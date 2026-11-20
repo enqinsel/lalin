@@ -1,0 +1,71 @@
+{
+  "source": "assets/environment/APPROVED_lalin_room_master.png",
+  "screen_wh": [
+    540,
+    960
+  ],
+  "walk": {
+    "source_xyxy": [
+      512,
+      120,
+      860,
+      738.6666666666666
+    ],
+    "background": "room_walk.png",
+    "foreground": "room_walk_foreground.png",
+    "heel_contact_path_xy": [
+      [
+        125,
+        850
+      ],
+      [
+        390,
+        860
+      ]
+    ],
+    "heel_contact_band_y": [
+      844,
+      876
+    ]
+  },
+  "vanity": {
+    "source_xyxy": [
+      985,
+      0,
+      1410,
+      755.5555555555555
+    ],
+    "background": "room_vanity.png",
+    "foreground": "room_vanity_foreground.png",
+    "lipstick": {
+      "texture": "lipstick.png",
+      "source_xyxy": [
+        1306,
+        418,
+        1334,
+        510
+      ],
+      "scale": 1.270588235,
+      "texture_top_left_xy": [
+        407.859,
+        531.106
+      ],
+      "base_xy": [
+        426.282,
+        645.205
+      ],
+      "grip_xy": [
+        426.282,
+        600.353
+      ],
+      "grip_pivot_px": [
+        14.5,
+        54.5
+      ]
+    },
+    "small_mirror_center_xy": [
+      379.906,
+      470.118
+    ]
+  }
+}

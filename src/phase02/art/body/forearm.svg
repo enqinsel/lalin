@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="82" height="173" viewBox="-41 -25 82 173">
+<defs>
+<linearGradient id="cream" x1="0%" y1="0%" x2="100%" y2="22%">
+  <stop stop-color="#ae836d"/><stop offset=".22" stop-color="#e4c6ac"/><stop offset=".52" stop-color="#f9e5ce"/><stop offset=".78" stop-color="#e5c3a9"/><stop offset="1" stop-color="#bc937d"/>
+</linearGradient>
+<linearGradient id="wine" x1="0%" y1="0%" x2="100%" y2="30%">
+  <stop stop-color="#391318"/><stop offset=".22" stop-color="#67242e"/><stop offset=".54" stop-color="#93404b"/><stop offset=".78" stop-color="#792e38"/><stop offset="1" stop-color="#47151f"/>
+</linearGradient>
+<linearGradient id="gold" x1="0%" y1="75%" x2="100%" y2="0%">
+  <stop stop-color="#7c4919"/><stop offset=".22" stop-color="#c18540"/><stop offset=".51" stop-color="#ffe8a1"/><stop offset=".67" stop-color="#e0b468"/><stop offset="1" stop-color="#856828"/>
+</linearGradient>
+</defs>
+<path d="M-29-12 C-17-23 8-24 24-15 C35-8 36 3 32 22 C29 44 27 69 25 91 L20 126 C18 142-17 142-21 132 C-24 110-26 90-29 67 C-31 46-34 20-35 5 Q-37-6-29-12Z" fill="url(#wine)" stroke="#4c1a23" stroke-width="2.1"/>
+<path d="M-27 7 C-24 30-18 56-15 83 C-13 94-13 104-12 115" fill="none" stroke="#b8636c" opacity=".59" stroke-width="1.65"/>
+<path d="M26 21 C21 48 18 81 15 118 L21 116 Q28 62 30 37Z" fill="#54202a" opacity=".58"/>
+<path d="M-20 115 Q2 108 20 117 L19 129 Q-1 137-21 130Z" fill="#4e1b25" stroke="#7d3541" stroke-width="1.25"/>
+<path d="M-20 129 Q3 132 19 128 L18 136 Q-3 143-20 136Z" fill="url(#cream)" stroke="#946653" stroke-width="1.15"/>
+<circle cx="12" cy="119" r="2.6" fill="url(#gold)" stroke="#7f4e27" stroke-width=".65"/>
+</svg>

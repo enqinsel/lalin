@@ -1,0 +1,65 @@
+{
+  "sample_rate_hz": 48000,
+  "channels": 1,
+  "format": "PCM s16le WAV",
+  "attack_detection": "First 1ms RMS window above 10% of the local maximum 1ms RMS.",
+  "source_note": "Public high-quality MP3 preview of CC0 recordings, decoded with FFmpeg then trimmed with short gain fades.",
+  "assets": [
+    {
+      "file": "heel_01.wav",
+      "title": "Footsteps High Heels - Pavement, walk & run",
+      "author": "Vrymaa",
+      "source": "https://freesound.org/people/Vrymaa/sounds/753290/",
+      "public_preview": "https://cdn.freesound.org/previews/753/753290_13973196-hq.mp3",
+      "recorded_action": "Furnished room, high heels on tile.",
+      "license": "CC0-1.0 (https://creativecommons.org/publicdomain/zero/1.0/)",
+      "source_trim_start_ms": 4560,
+      "source_trim_end_ms": 4781,
+      "attack_sample": 240,
+      "peak_dbfs": -8,
+      "sha256": "616afcc422ed1c4c406c9aad8d6087260c54c42d26883eb20ae84715e7861d9a"
+    },
+    {
+      "file": "heel_02.wav",
+      "title": "Footsteps High Heels - Pavement, walk & run",
+      "author": "Vrymaa",
+      "source": "https://freesound.org/people/Vrymaa/sounds/753290/",
+      "public_preview": "https://cdn.freesound.org/previews/753/753290_13973196-hq.mp3",
+      "recorded_action": "Furnished room, high heels on tile.",
+      "license": "CC0-1.0 (https://creativecommons.org/publicdomain/zero/1.0/)",
+      "source_trim_start_ms": 5178,
+      "source_trim_end_ms": 5359,
+      "attack_sample": 240,
+      "peak_dbfs": -9,
+      "sha256": "083fcb1782582d4be74f63cf1f5dd242d812011df219ad24f45034422bc513dd"
+    },
+    {
+      "file": "lipstick_pickup.wav",
+      "title": "Picking Something Up From A Table.wav",
+      "author": "RutgerMuller",
+      "source": "https://freesound.org/people/RutgerMuller/sounds/51160/",
+      "public_preview": "https://cdn.freesound.org/previews/51/51160_179538-hq.mp3",
+      "recorded_action": "Object pickup from a table, Edirol R-1 and Sennheiser ME66.",
+      "license": "CC0-1.0 (https://creativecommons.org/publicdomain/zero/1.0/)",
+      "source_trim_start_ms": 0,
+      "source_trim_end_ms": 78,
+      "attack_sample": 240,
+      "peak_dbfs": -17,
+      "sha256": "fdbe3de9763495b5c1b315a367986abc14a838a15baddfe1fd5125b81245c646"
+    },
+    {
+      "file": "lipstick_setdown.wav",
+      "title": "Plastic Thud 4",
+      "author": "sgrowe",
+      "source": "https://freesound.org/people/sgrowe/sounds/342536/",
+      "public_preview": "https://cdn.freesound.org/previews/342/342536_6148875-hq.mp3",
+      "recorded_action": "Small plastic hard-surface impact surrogate, Tascam DR-100 and Rode NTG2.",
+      "license": "CC0-1.0 (https://creativecommons.org/publicdomain/zero/1.0/)",
+      "source_trim_start_ms": 266,
+      "source_trim_end_ms": 300,
+      "attack_sample": 240,
+      "peak_dbfs": -13,
+      "sha256": "ae4f5bc6eb332d7f3c2444cf4c69145b095bb09029d8645df210bfbcb0932f2e"
+    }
+  ]
+}
